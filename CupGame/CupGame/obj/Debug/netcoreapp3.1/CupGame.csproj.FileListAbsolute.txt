@@ -1,0 +1,16 @@
+C:\D\Git_Hub\CupGame\CupGame\CupGame\bin\Debug\netcoreapp3.1\CupGame.exe
+C:\D\Git_Hub\CupGame\CupGame\CupGame\bin\Debug\netcoreapp3.1\CupGame.deps.json
+C:\D\Git_Hub\CupGame\CupGame\CupGame\bin\Debug\netcoreapp3.1\CupGame.runtimeconfig.json
+C:\D\Git_Hub\CupGame\CupGame\CupGame\bin\Debug\netcoreapp3.1\CupGame.runtimeconfig.dev.json
+C:\D\Git_Hub\CupGame\CupGame\CupGame\bin\Debug\netcoreapp3.1\CupGame.dll
+C:\D\Git_Hub\CupGame\CupGame\CupGame\bin\Debug\netcoreapp3.1\CupGame.pdb
+C:\D\Git_Hub\CupGame\CupGame\CupGame\bin\Debug\netcoreapp3.1\ArgeCode.dll
+C:\D\Git_Hub\CupGame\CupGame\CupGame\obj\Debug\netcoreapp3.1\CupGame.csproj.AssemblyReference.cache
+C:\D\Git_Hub\CupGame\CupGame\CupGame\obj\Debug\netcoreapp3.1\CupGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\D\Git_Hub\CupGame\CupGame\CupGame\obj\Debug\netcoreapp3.1\CupGame.AssemblyInfoInputs.cache
+C:\D\Git_Hub\CupGame\CupGame\CupGame\obj\Debug\netcoreapp3.1\CupGame.AssemblyInfo.cs
+C:\D\Git_Hub\CupGame\CupGame\CupGame\obj\Debug\netcoreapp3.1\CupGame.csproj.CoreCompileInputs.cache
+C:\D\Git_Hub\CupGame\CupGame\CupGame\obj\Debug\netcoreapp3.1\CupGame.csproj.CopyComplete
+C:\D\Git_Hub\CupGame\CupGame\CupGame\obj\Debug\netcoreapp3.1\CupGame.dll
+C:\D\Git_Hub\CupGame\CupGame\CupGame\obj\Debug\netcoreapp3.1\CupGame.pdb
+C:\D\Git_Hub\CupGame\CupGame\CupGame\obj\Debug\netcoreapp3.1\CupGame.genruntimeconfig.cache
