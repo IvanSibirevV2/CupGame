@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>CupGame</id>
+    <version>0.0.01</version>
+    <authors>SibirevIvanV2</authors>
+    <projectUrl>https://github.com/IvanSibirevV2/CupGame</projectUrl>
+    <repository type="git" url="https://github.com/IvanSibirevV2/CupGame" />
+    <icon>K.E.K.S..png</icon>
+    <description>The Big Cup Game</description>
+    <releaseNotes> Содержит генератор объектов из списка по заданному по распределению </releaseNotes>
+    <tags>Cup Game statistics generator distribution SibirevIvanV2</tags>
+    <dependencies>
+      <group targetFramework="net471">
+	<dependency id="ArgeCode" version="0.0.2" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+<!--    <file src=".\CupGame.deps" target="\lib\netcoreapp3.1" /> -->
+    <file src=".\CupGame.dll" target="\lib\netcoreapp3.1" />
+    <file src=".\CupGame.pdb" target="\lib\netcoreapp3.1" />
+    <file src=".\K.E.K.S..png" target="" />
+  </files>
+</package>

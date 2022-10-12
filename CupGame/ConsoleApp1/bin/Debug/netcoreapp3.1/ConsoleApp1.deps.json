@@ -1,0 +1,54 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ConsoleApp1/1.0.0": {
+        "dependencies": {
+          "CupGame": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleApp1.dll": {}
+        }
+      },
+      "ArgeCode/0.0.2": {
+        "runtime": {
+          "lib/net471/ArgeCode.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CupGame/1.0.0": {
+        "dependencies": {
+          "ArgeCode": "0.0.2"
+        },
+        "runtime": {
+          "CupGame.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArgeCode/0.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N2AMsJiX+d6/ufHkW2WKZgHu6JnEd1B1RPrhPqrv1cs1e1yC/f82fozAAY3FVFdhWc2lMc6E0llQbowaB52XZw==",
+      "path": "argecode/0.0.2",
+      "hashPath": "argecode.0.0.2.nupkg.sha512"
+    },
+    "CupGame/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
