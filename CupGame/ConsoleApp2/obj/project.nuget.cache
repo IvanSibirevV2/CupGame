@@ -1,19 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "KME0HaJbqKfYz6V38vYPUTYxaw+djecGFe0hGc+dwy2KBcI1uZx7A3GSQOJfPQ+GFkc28xf463mUhpN4FL2gtw==",
+  "dgSpecHash": "BCjC2BhNSkhUXU8yIAO6KRvSVCfcb2Qfw6yvokUyo2BtDKzc0HPBreQ01skfOwVfxpaHISiw0bRU9QSZa6Sr8Q==",
   "success": true,
   "projectFilePath": "C:\\D\\Git_Hub\\CupGame\\CupGame\\ConsoleApp2\\ConsoleApp2.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\SibNout2020\\.nuget\\packages\\argecode\\0.0.2\\argecode.0.0.2.nupkg.sha512",
-    "C:\\Users\\SibNout2020\\.nuget\\packages\\cupgame\\0.0.1\\cupgame.0.0.1.nupkg.sha512"
+    "C:\\Users\\SibNout2020\\.nuget\\packages\\cupgame\\0.0.3\\cupgame.0.0.3.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"ArgeCode 0.0.2\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
-      "libraryId": "ArgeCode",
+      "message": "Пакет \"CupGame 0.0.3\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "CupGame",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]

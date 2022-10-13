@@ -1,22 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.VConsole;
+//using System.VConsole;
+using CupGame;
 
 namespace ConsoleApp2
 {
-    class Program
+    class Program1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World!");            
             int i = 0;
             CupGame.RndObj _RndObj = new CupGame.RndObj();
             while (i < 100)
             {
-                _RndObj.Do().Get_Resalt().ToString().WriteLine();
+                System.Console.WriteLine(_RndObj.Do().Get_Resalt().ToString());
                 i++;
-            }
+            }            
             System.Console.ReadLine();
         }
     }

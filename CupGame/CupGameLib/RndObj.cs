@@ -18,7 +18,7 @@ namespace CupGame
         public RndObj() { }
         public RndObj Set(RndObj _this = null, List<DataConteiner> _ListData = null)
         {
-            if (_this != null) this.Set(_this: null, _ListData: _this.p_ListData.Get__Copy());
+            if (_this != null) this.Set(_this: null, _ListData: _this.p_ListData/*.Get__Copy()*/);
             if (_ListData != null) this.p_ListData = _ListData;
             return this;
         }

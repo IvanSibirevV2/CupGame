@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.VConsole;
+//using System.VConsole;
 
 namespace CupGame
 {
@@ -21,7 +21,7 @@ namespace CupGame
             if (_this != null) this
                 .Set(_this: null)
                 .Set(_CupCount: _CupCount)
-                .Set(_ListCup: _ListCup.Get__Copy())
+                .Set(_ListCup: _ListCup/*.Get__Copy()*/)
                 .Set(_YourCup: _YourCup)
             ;
             if (_CupCount != null) this.p_CupCount = _CupCount.Value;
@@ -48,15 +48,17 @@ namespace CupGame
         {
 
             this.p_ListCup.Select((a, i) => "Cup_" + i.ToString() + "=" + a.ToString() + ";")
-                .ToList().ForEach(a => a.WriteLine());
+                .ToList().ForEach(a => System.Console.WriteLine( a));
             return this;
         }
         ///////////////////////////////////////////////
         public GameCup Do()
         {
             this.Set_BallCup();
-            "Write YourCup:".WriteLine();
-            this.p_YourCup = this.p_YourCup.Get_ReadLine();
+            System.Console.WriteLine("Write YourCup:");
+            this.p_YourCup =
+                System.Int32.Parse(System.Console.ReadLine());
+/*                this.p_YourCup.Get_ReadLine()*/;
             this.p__LockUp = true;
             return this;
         }
@@ -66,8 +68,8 @@ namespace CupGame
             if (!this.p__LockUp) this.Do();
             this.WriteThis();
             if ((this.p_YourCup < 0) || (this.p_YourCup >= this.p_ListCup.Count) || (!this.p_ListCup[this.p_YourCup]))
-            { "Fail".WriteLine(); return this; }
-            if (this.p_ListCup[this.p_YourCup]) "Your is KRASAVCHEK !!!".WriteLine();
+            { System.Console.WriteLine("Fail"); return this; }
+            if (this.p_ListCup[this.p_YourCup]) System.Console.WriteLine("Your is KRASAVCHEK !!!");
 
             return this;
         }

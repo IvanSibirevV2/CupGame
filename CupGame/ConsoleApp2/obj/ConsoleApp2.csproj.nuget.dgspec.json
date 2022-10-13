@@ -25,7 +25,6 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\D\\Git_Hub\\CupGame\\CupGame\\NuGet_Forge": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -45,13 +44,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "ArgeCode": {
-              "target": "Package",
-              "version": "[0.0.2, )"
-            },
             "CupGame": {
               "target": "Package",
-              "version": "[0.0.1, )"
+              "version": "[0.0.3, )"
             }
           },
           "imports": [

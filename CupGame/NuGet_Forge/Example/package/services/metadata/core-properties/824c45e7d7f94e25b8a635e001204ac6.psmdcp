@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coreProperties xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.openxmlformats.org/package/2006/metadata/core-properties">
+  <dc:creator>SibirevIvanV2</dc:creator>
+  <dc:description>The Big Cup Game</dc:description>
+  <dc:identifier>CupGame</dc:identifier>
+  <version>0.0.3</version>
+  <keywords>Cup Game statistics generator distribution SibirevIvanV2</keywords>
+  <lastModifiedBy>NuGet, Version=5.11.0.10, Culture=neutral, PublicKeyToken=31bf3856ad364e35;Microsoft Windows NT 10.0.19044.0;.NET Framework 4.7.2</lastModifiedBy>
+</coreProperties>

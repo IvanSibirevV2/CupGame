@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>CupGame</id>
+    <version>0.0.3</version>
+    <authors>SibirevIvanV2</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <icon>K.E.K.S..png</icon>
+    <projectUrl>https://github.com/IvanSibirevV2/CupGame</projectUrl>
+    <description>The Big Cup Game</description>
+    <releaseNotes>Содержит генератор объектов из списка по заданному по распределению</releaseNotes>
+    <tags>Cup Game statistics generator distribution SibirevIvanV2</tags>
+    <repository type="git" url="https://github.com/IvanSibirevV2/CupGame" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="ArgeCode" version="0.0.2" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

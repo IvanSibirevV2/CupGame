@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "ConsoleApp1/1.0.0": {
         "dependencies": {
-          "CupGame": "1.0.0"
+          "CupGameLib": "1.0.0"
         },
         "runtime": {
           "ConsoleApp1.dll": {}
@@ -22,12 +22,12 @@
           }
         }
       },
-      "CupGame/1.0.0": {
+      "CupGameLib/1.0.0": {
         "dependencies": {
           "ArgeCode": "0.0.2"
         },
         "runtime": {
-          "CupGame.dll": {}
+          "CupGameLib.dll": {}
         }
       }
     }
@@ -45,7 +45,7 @@
       "path": "argecode/0.0.2",
       "hashPath": "argecode.0.0.2.nupkg.sha512"
     },
-    "CupGame/1.0.0": {
+    "CupGameLib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

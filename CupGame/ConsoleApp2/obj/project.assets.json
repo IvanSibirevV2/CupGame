@@ -2,61 +2,36 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "ArgeCode/0.0.2": {
+      "CupGame/0.0.3": {
         "type": "package",
         "compile": {
-          "lib/net471/ArgeCode.dll": {}
+          "lib/CupGame.dll": {}
         },
         "runtime": {
-          "lib/net471/ArgeCode.dll": {}
-        }
-      },
-      "CupGame/0.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/netcoreapp3.1/CupGame.dll": {},
-          "lib/netcoreapp3.1/CupGame.exe": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/CupGame.dll": {},
-          "lib/netcoreapp3.1/CupGame.exe": {}
+          "lib/CupGame.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "ArgeCode/0.0.2": {
-      "sha512": "N2AMsJiX+d6/ufHkW2WKZgHu6JnEd1B1RPrhPqrv1cs1e1yC/f82fozAAY3FVFdhWc2lMc6E0llQbowaB52XZw==",
+    "CupGame/0.0.3": {
+      "sha512": "mmdVUu47wG5oidjaWh5kG+c4HhtxzY0DW4oBicY7OWwPCLVITRQkQyZBq1H7pC39gZyDHas5JzpAJopzh+M9lw==",
       "type": "package",
-      "path": "argecode/0.0.2",
+      "path": "cupgame/0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "argecode.0.0.2.nupkg.sha512",
-        "argecode.nuspec",
-        "lib/net471/ArgeCode.dll",
-        "lib/net471/ArgeCode.pdb"
-      ]
-    },
-    "CupGame/0.0.1": {
-      "sha512": "y/COk7z1PJqOmIYZz1cMpdqwAxlXZTr86VANCNpO4L2aEN1M+urcEqQIk30pscc6Cp4rpTS3F9uFhhpxDrvvPw==",
-      "type": "package",
-      "path": "cupgame/0.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "K.E.K.S..png",
-        "cupgame.0.0.1.nupkg.sha512",
+        "KEKS.png",
+        "cupgame.0.0.3.nupkg.sha512",
         "cupgame.nuspec",
-        "lib/netcoreapp3.1/CupGame.dll",
-        "lib/netcoreapp3.1/CupGame.exe",
-        "lib/netcoreapp3.1/CupGame.pdb"
+        "lib/CupGame.dll",
+        "lib/CupGame.pdb"
       ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "ArgeCode >= 0.0.2",
-      "CupGame >= 0.0.1"
+      "CupGame >= 0.0.3"
     ]
   },
   "packageFolders": {
@@ -84,7 +59,6 @@
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\D\\Git_Hub\\CupGame\\CupGame\\NuGet_Forge": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -104,13 +78,9 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
-          "ArgeCode": {
-            "target": "Package",
-            "version": "[0.0.2, )"
-          },
           "CupGame": {
             "target": "Package",
-            "version": "[0.0.1, )"
+            "version": "[0.0.3, )"
           }
         },
         "imports": [
@@ -137,8 +107,8 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"ArgeCode 0.0.2\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
-      "libraryId": "ArgeCode",
+      "message": "Пакет \"CupGame 0.0.3\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "CupGame",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]

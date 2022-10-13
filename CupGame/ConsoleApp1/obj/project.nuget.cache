@@ -1,21 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2URsVt+jAz8O+TnfshltEEsusdKzvkfmzwaT6cjMUgYwavm2Wg96aMc59+ItPMpEpQE+NFpn0iwhB/Dy5syj/A==",
+  "dgSpecHash": "0omJJB6tUt4yDj6mhPPys+rertdSZvtgNmyQ0b7ehYaHm2rVltyeK94XxTAFe1tKaEKbVxXOsqyRXcNQijizEQ==",
   "success": true,
   "projectFilePath": "C:\\D\\Git_Hub\\CupGame\\CupGame\\ConsoleApp1\\ConsoleApp1.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\SibNout2020\\.nuget\\packages\\argecode\\0.0.2\\argecode.0.0.2.nupkg.sha512"
-  ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Пакет \"ArgeCode 0.0.2\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
-      "libraryId": "ArgeCode",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "expectedPackageFiles": [],
+  "logs": []
 }

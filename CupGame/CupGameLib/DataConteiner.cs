@@ -17,9 +17,9 @@ namespace CupGame
         {
             if (_this != null) this
                 .Set(_this: null)
-                .Set(_Obj: _this.p_Obj.Get__Copy())
+                .Set(_Obj: _this.p_Obj/*.Get__Copy()*/)
                 .Set(_Persents: _this.p_Persents)
-                .Set(_Target: _this.p_Target.Get__Copy())
+                .Set(_Target: _this.p_Target/*.Get__Copy()*/)
             ;
             if (_Obj != null) this.p_Obj = _Obj;
             if (_Persents != null) this.p_Persents = _Persents.Value;

@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ConsoleApp2/1.0.0": {
+        "dependencies": {
+          "CupGame": "0.0.3"
+        },
+        "runtime": {
+          "ConsoleApp2.dll": {}
+        }
+      },
+      "CupGame/0.0.3": {
+        "runtime": {
+          "lib/CupGame.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CupGame/0.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mmdVUu47wG5oidjaWh5kG+c4HhtxzY0DW4oBicY7OWwPCLVITRQkQyZBq1H7pC39gZyDHas5JzpAJopzh+M9lw==",
+      "path": "cupgame/0.0.3",
+      "hashPath": "cupgame.0.0.3.nupkg.sha512"
+    }
+  }
+}

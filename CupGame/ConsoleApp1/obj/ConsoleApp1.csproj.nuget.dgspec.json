@@ -25,14 +25,15 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\D\\Git_Hub\\CupGame\\CupGame\\NuGet_Forge": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\D\\Git_Hub\\CupGame\\CupGame\\CupGame\\CupGame.csproj": {
-                "projectPath": "C:\\D\\Git_Hub\\CupGame\\CupGame\\CupGame\\CupGame.csproj"
+              "C:\\D\\Git_Hub\\CupGame\\CupGame\\CupGameLib\\CupGameLib.csproj": {
+                "projectPath": "C:\\D\\Git_Hub\\CupGame\\CupGame\\CupGameLib\\CupGameLib.csproj"
               }
             }
           }
@@ -65,14 +66,14 @@
         }
       }
     },
-    "C:\\D\\Git_Hub\\CupGame\\CupGame\\CupGame\\CupGame.csproj": {
+    "C:\\D\\Git_Hub\\CupGame\\CupGame\\CupGameLib\\CupGameLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\D\\Git_Hub\\CupGame\\CupGame\\CupGame\\CupGame.csproj",
-        "projectName": "CupGame",
-        "projectPath": "C:\\D\\Git_Hub\\CupGame\\CupGame\\CupGame\\CupGame.csproj",
+        "projectUniqueName": "C:\\D\\Git_Hub\\CupGame\\CupGame\\CupGameLib\\CupGameLib.csproj",
+        "projectName": "CupGameLib",
+        "projectPath": "C:\\D\\Git_Hub\\CupGame\\CupGame\\CupGameLib\\CupGameLib.csproj",
         "packagesPath": "C:\\Users\\SibNout2020\\.nuget\\packages\\",
-        "outputPath": "C:\\D\\Git_Hub\\CupGame\\CupGame\\CupGame\\obj\\",
+        "outputPath": "C:\\D\\Git_Hub\\CupGame\\CupGame\\CupGameLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -86,7 +87,8 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\D\\Git_Hub\\CupGame\\CupGame\\NuGet_Forge": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -103,12 +105,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "ArgeCode": {
-              "target": "Package",
-              "version": "[0.0.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
